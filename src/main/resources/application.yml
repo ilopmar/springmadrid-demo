@@ -1,0 +1,14 @@
+server:
+  port: 8010
+
+management:
+  context-path: /admin
+  port: 9000
+
+
+endpoints:
+  actuator:
+    enabled: false
+
+  beans:
+    sensitive:
